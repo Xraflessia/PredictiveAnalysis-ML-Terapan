@@ -34,7 +34,7 @@ Dengan pendekatan ini, sistem klasifikasi anemia berbasis machine learning dihar
 
 ### **Goals**
 
-* Membangun model machine learning yang mampu mengklasifikasikan kondisi anemia berdasarkan data fitur darah dan demografis.
+* Membangun model machine learning yang mampu mengklasifikasikan kondisi anemia berdasarkan data fitur darah dan jenis kelamin.
   
 * Mengukur dan membandingkan performa beberapa algoritma untuk memilih model dengan hasil terbaik dalam mendeteksi anemia.
 
@@ -48,7 +48,7 @@ Untuk mencapai tujuan, solusi yang diterapkan meliputi:
    * Support Vector Machine (SVM)
    * K-Nearest Neighbors (KNN)
    * Random Forest
-   * XGBoost
+   * XGBoost (Gradient Boosting)
 
 2. **Evaluasi Terukur**:
    Setiap model dievaluasi berdasarkan metrik:
