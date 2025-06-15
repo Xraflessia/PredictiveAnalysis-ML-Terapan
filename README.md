@@ -378,6 +378,24 @@ $F_{m}(x) = F_{m-1}(x) + \gamma_m h_m(x)$
 | SVM               | 0.93     | 0.94      | 0.93     | 0.93     |
 | Gradient Boosting | **1.00** | **1.00**  | **1.00** | **1.00** |
 
+#### **Confusion Matrix KNN**
+
+![Confusion Matrix KNN](assets/KNN_confusion_matrix.png)
+
+#### **Confusion Matrix RF**
+
+![Confusion Matrix RF](assets/RF_confusion_matrix.png)
+
+
+#### **Confusion Matrix SVM**
+
+![Confusion Matrix SVM](assets/SVM_confusion_matrix.png)
+
+
+#### **Confusion Matrix XGBoost**
+
+![Confusion Matrix XGBoost](assets/XGB_confusion_matrix.png)
+
 ### **Model Terbaik**
 
 Model terbaik berdasarkan metrik evaluasi adalah **Gradient Boosting (XGBoost)**. Model ini mencetak nilai sempurna (1.00) pada semua metrik evaluasi. Hal ini menunjukkan bahwa model sangat baik dalam mengklasifikasikan data tanpa kesalahan.
