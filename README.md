@@ -78,8 +78,8 @@ Jumlah fitur: **5 fitur numerik + 1 target**
 
 * **Result**:
 
-  * `1.0` = Normal
-  * `2.0` = Anemia
+  * `0.0` = Normal
+  * `1.0` = Anemia
 
 ### **Daftar Kolom**
 
