@@ -208,7 +208,7 @@ Data dibagi menjadi 80% data latih dan 20% data uji menggunakan fungsi train_tes
 4. Normalisasi Data
 Data latih dan data uji dinormalisasi menggunakan metode MinMaxScaler. Normalisasi ini dilakukan untuk menyamakan skala antar fitur sehingga model dapat belajar secara lebih adil dan efisien.
 
-## **5. Modeling**
+## **Modeling**
 
 
 ## 1. K-Nearest Neighbors (KNN)
