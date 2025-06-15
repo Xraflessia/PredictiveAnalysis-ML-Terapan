@@ -6,12 +6,11 @@
 ### **Latar Belakang**
 
 Anemia merupakan kondisi kekurangan hemoglobin dalam darah yang menyebabkan tubuh kekurangan oksigen. Masalah ini umum terjadi dan berdampak serius terhadap kesehatan, terutama pada wanita hamil dan anak-anak. WHO melaporkan bahwa lebih dari 40% wanita hamil dan anak balita di dunia mengalami anemia [1].
-
 Proses diagnosis anemia biasanya dilakukan dengan analisis laboratorium terhadap parameter darah seperti Hemoglobin, MCH, MCHC, dan MCV. Namun, analisis manual memiliki keterbatasan, seperti waktu yang lama dan potensi ketidakkonsistenan antar tenaga medis.
-
 Oleh karena itu, dibutuhkan pendekatan yang lebih cepat dan akurat. Machine learning menjadi solusi yang potensial karena mampu mengolah data medis dan memberikan prediksi diagnosis secara otomatis. Ramzan et al. (2024) mengembangkan model berbasis attention mechanism yang meningkatkan akurasi deteksi anemia [2]. Penelitian lain oleh Dhakal et al. (2023) dan Asare et al. (2023) juga menunjukkan bahwa algoritma seperti Random Forest dan SVM efektif dalam klasifikasi anemia [3][4].
 
 Dengan pendekatan ini, sistem klasifikasi anemia berbasis machine learning diharapkan dapat membantu proses diagnosis menjadi lebih efisien, akurat, dan mendukung pengambilan keputusan medis secara objektif.
+
 ---
 
 ### **Referensi**
