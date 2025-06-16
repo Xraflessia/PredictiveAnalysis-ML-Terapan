@@ -70,7 +70,7 @@ Untuk mencapai tujuan, solusi yang diterapkan meliputi:
 Dataset: [Anemia Dataset– Kaggle]((https://www.kaggle.com/datasets/biswaranjanrao/anemia-dataset))
 Jumlah data: 
 - 6 kolom
-- 1422 baris
+- 1421 baris
 
 Jumlah fitur: **5 fitur numerik + 1 target**
 
@@ -84,12 +84,12 @@ Jumlah fitur: **5 fitur numerik + 1 target**
 ### **Daftar Kolom**
 
 Berikut adalah penjelasan singkat per kolom dalam satu kalimat per poin: 
+1. **`Gender`**: Menunjukkan jenis kelamin pasien, dengan 0 untuk laki-laki dan 1 untuk perempuan.
+2. **`Hemoglobin`**: Konsentrasi hemoglobin dalam darah yang berperan mengangkut oksigen dimana nilai rendah bisa mengindikasikan anemia. 
+3. **`MCH` **: Mean Corpuscular Hemoglobin Atau Rata-rata jumlah hemoglobin dalam satu sel darah merah.
+4. **`MCHC` **: Mean Corpuscular Hemoglobin Concentration atau Konsentrasi rata-rata hemoglobin dalam volume tertentu sel darah merah.
+5. **`MCV` **: Mean Corpuscular Volume Ukuran rata-rata volume dari sel darah merah.
 
-1. **`Gender`**: 0 untuk laki-laki dan 1 untuk perempuan
-2. **`Hemoglobin`**: Jumlah kenaikan mendadak detak jantung janin per detik.
-3. **`MCH`**: Jumlah gerakan janin yang terdeteksi per detik.
-4. **`MCHC`**: Intensitas kontraksi rahim yang terukur per detik.
-5. **`MCV`**: Penurunan ringan detak jantung janin dalam periode tertentu.
 
 ### **Kondisi Dataset**
 Terdapat 887 data duplikat ditemukan dalam dataset dari total 1421 data, yang berarti sekitar 62% merupakan duplikasi. 
@@ -177,8 +177,8 @@ df.drop_duplicates(inplace=True)
 
 Data kemudian dipisahkan menjadi variabel independen dan dependen. Variabel X berisi fitur atau data independen, sedangkan variabel y memuat label atau data dependen yang akan diprediksi. Pemisahan ini dilakukan untuk mempersiapkan data sebelum masuk ke tahap pelatihan model.
 ```python
-X = df.drop(['fetal_health'],axis = 1)
-y = df['fetal_health']
+X = df.drop(['Result'],axis = 1)
+y = df['Result']
 ```
 
 Pembagian data dilakukan dengan rasio 80% untuk data latih dan 20% untuk data uji. Pemisahan ini bertujuan agar model memiliki cukup data untuk belajar sekaligus menyediakan data yang cukup untuk evaluasi. Dalam proses ini, distribusi kelas pada variabel target dijaga tetap seimbang menggunakan teknik stratifikasi, sehingga proporsi label pada data latih dan data uji tetap konsisten dengan data aslinya. Pengacakan dilakukan secara terkontrol agar hasil pembagian data tetap konsisten dan dapat diulang kembali.
@@ -265,8 +265,8 @@ $\hat{y} = \text{mode}(T_1(x), T_2(x), \ldots, T_k(x))$
 
 ### Parameter:
 
-* n_estimators=100
-* max_depth=None
+* n_estimators=300
+* max_depth=2
 * random_state=42
 
 ### Kelebihan:
